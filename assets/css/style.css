@@ -1,0 +1,124 @@
+/* Navbar styling */
+body{
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+.navigation{
+    vertical-align: top;
+}
+nav {
+    height: 150px;
+    background-color: #373738;
+  }
+  header li {
+    padding: 5px 10px;
+    list-style: none;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    } 
+.inline-blockLogo{
+    float: left;
+    height: 10px;
+    border: 2px;
+    width: 10px;
+    text-align: center;
+} 
+.inline-blockLogo img {
+    float: left;
+    width: 120px; 
+    height: 120px; 
+    margin-right: 10px; 
+    padding: 30px;
+}
+.inline-block {
+  display: inline-block;  
+  padding: 15px;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+/* Hero image section styling */
+.content{
+    float: left;
+  height: 500px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.heroImg img {
+    float: right;
+    width: 800px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+.heroImg h1, .heroImg p {
+    float: left;
+}
+
+h1{
+    text-align:left;
+    vertical-align:text-top;
+    font-size:80px;
+    font-family:Inter;
+    align-self:flex-start;
+    left:200px;
+    top:150px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    width:95px;
+    display:flex;
+}
+
+p{
+    text-align:left;
+    vertical-align:text-top;
+    font-size:30px;
+    font-family:Inter;
+    align-self:flex-start;
+    left:200px;
+    top:300px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    width:600px;
+    display:flex;
+}
+button{
+    vertical-align:text-top;
+    align-self:flex-start;
+    left:200px;
+    top:150px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    display:flex;
+}
+/* Footer styling */
+footer{
+    background-color: #373738;
+    padding: 10px;
+    margin-top: auto;
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+}
+footer li {
+    padding: 5px 10px;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    } 
+  
+   
+    
